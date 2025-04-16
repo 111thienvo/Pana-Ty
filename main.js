@@ -3,7 +3,7 @@
 let menuData = [];
 
 function fetchMenu() {
-  fetch('https://script.google.com/macros/s/YOUR_DEPLOYED_URL/exec')
+  fetch('https://script.google.com/macros/s/AKfycbzCsP7NxxmHbkkvL5pVGfZ5MIjuom-RE4oO6eEU1evWw_H_fnGYVefRNSh1UzF9gusXDQ/exec')
     .then((res) => res.json())
     .then((data) => {
       menuData = data;
